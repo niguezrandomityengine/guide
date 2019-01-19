@@ -6,6 +6,7 @@ Original Author: Scheich R. Ahmed
 ---
 
 # A Guide for using the Ñíguez Randomity Engine
+
 Notes:
 - The value (`arg2`) is interpreted as an unsigned number.
 - The shift amount (`arg1`) is interpreted as an unsigned number.
