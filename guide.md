@@ -17,7 +17,6 @@ Original Author(s): Scheich R. Ahmed
   
 - Create a Smart Contract as follow:
    ```
-  ....
   contract Randomness is usingNRE {
   
   }
