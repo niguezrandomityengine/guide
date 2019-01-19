@@ -8,7 +8,6 @@ Original Author: Scheich R. Ahmed
 # A Guide for using the Ñíguez Randomity Engine
 
 ## On-Chain Usage
-Step 1:
 - Import Ethereum API into your project | Use the following in Solidity IDE
 
   ```
