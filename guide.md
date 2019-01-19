@@ -8,7 +8,8 @@ Original Author(s): Scheich R. Ahmed
 # A Guide for using the Ñíguez Randomity Engine
 
 ## On-Chain Usage
-- Import Ethereum API into your project | Use the following in Solidity IDE
+- Import Ethereum API into your project | Use the following in Remix IDE
+  (Other platforms may not support GitHub)
 
   ```
   pragma solidity ^0.5.0;
