@@ -43,6 +43,24 @@ Original Author(s): Scheich R. Ahmed
     
   }
   ```
+  
+   **Example 2: Using multple sequence to generate 3 digit random number from 0 to 999.**
+   
+   Application may include generating random number to randomly select validators in Proof of Stake network
+   
+   ```
+   pragma solidity ^0.5.0;
+  
+  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  
+  contract Randomness is usingNRE {
+  
+        function randomNumber() public view returns (uint256){
+             return (((rf()%10)*100)+((rx()%10)*10)+(rm()%10));
+        }
+    
+  }
+  ```
 
 ## Off-Chain Usage
 
