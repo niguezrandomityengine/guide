@@ -9,7 +9,10 @@ Original Author: Scheich R. Ahmed
 
 ## On-Chain Usage
 Step 1:
-- Import Ethereum API into your project
+- Import Ethereum API into your project | Use the following in Solidity
+  ```
+  import "github.com/oraclize/ethereum-api/oraclizeAPI.sol";
+  ```
 
 ## Off-Chain Usage
 
