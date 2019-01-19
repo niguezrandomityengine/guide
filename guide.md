@@ -102,13 +102,7 @@ Original Author(s): Scheich R. Ahmed
     
   }
   ```
-- These are merely 4 instances of genarating pseudo-random number, the user could use this numbers in infinite possiblities:
-     
-     Using dynamic pattern
-     
-     cross stitching sequence
-     
-     using as a salt to hash with user's address, nounce.
+- These are merely 4 instances of genarating pseudo-random number, the user could use this numbers in infinite possiblities by using dynamic patterns, cross stitching sequence and using as a salt to hash with user's address, nounce.
        
 ## Off-Chain Usage
 
