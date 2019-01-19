@@ -88,7 +88,7 @@ Original Author(s): Scheich R. Ahmed
   }
   ```
   
-  **Example 1: Using the slot of numbers between the sequence and hashing it for distinctive random sequence**
+  **Example 4: Using the slot of numbers between the sequence and hashing it for distinctive random sequence**
    ```
    pragma solidity ^0.5.0;
   
@@ -102,6 +102,10 @@ Original Author(s): Scheich R. Ahmed
     
   }
   ```
-
+- These are merely 4 instances of genarating pseudo-random number, the user could use this numbers in infinite possiblities:
+     Using dynamic pattern
+     cross stitching sequence
+     using as a salt to hash with user's address, nounce.
+       
 ## Off-Chain Usage
 
