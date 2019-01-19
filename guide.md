@@ -5,5 +5,9 @@ Contract Type: Closed Source
 Original Author: Scheich R. Ahmed
 ---
 
-## A Guide for using the Ñíguez Randomity Engine
+# A Guide for using the Ñíguez Randomity Engine
+
+## On-Chain Usage
+
+## Off-Chain Usage
 
