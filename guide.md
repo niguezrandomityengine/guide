@@ -77,12 +77,27 @@ Original Author(s): Scheich R. Ahmed
     
         /**State Variable. */
         function stateRandomNumber() public {
-             randomNumber = (((rf()%10)*100)+((rx()%10)*10)+(rm()%10));
+             randomNumber = (((ru()%10)*100)+((re()%10)*10)+(rq()%10));
         }
         
         /**Local Variable. */
         function localRandomNumber() public {
-             uint256 random = (((rf()%10)*100)+((rx()%10)*10)+(rm()%10));
+             uint256 randomGame = (((rj()%10)*100)+((rg()%10)*10)+(ri()%10));
+        }
+    
+  }
+  ```
+  
+  **Example 1: Using the slot of numbers between the sequence and hashing it for distinctive random sequence**
+   ```
+   pragma solidity ^0.5.0;
+  
+  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  
+  contract Randomness is usingNRE {
+  
+        function randomNumber() public view returns (uint256){
+             return (uint256(keccak256((rw()/(10**20))%(10**12))));
         }
     
   }
