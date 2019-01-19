@@ -10,6 +10,7 @@ Original Author: Scheich R. Ahmed
 ## On-Chain Usage
 Step 1:
 - Import Ethereum API into your project | Use the following in Solidity IDE
+
   ```
   pragma solidity ^0.5.0;
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
