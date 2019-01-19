@@ -18,6 +18,10 @@ Original Author(s): Scheich R. Ahmed
   
 - Create a Smart Contract as follow:
    ```
+   pragma solidity ^0.5.0;
+  
+  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  
   contract Randomness is usingNRE {
   
   }
@@ -27,6 +31,10 @@ Original Author(s): Scheich R. Ahmed
 
   **Example 1: Using the explicit sequence to get 10 digit random number.**
    ```
+   pragma solidity ^0.5.0;
+  
+  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  
   contract Randomness is usingNRE {
   
   function randomNumber() public view returns (uint256){
