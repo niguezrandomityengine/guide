@@ -12,6 +12,7 @@ Original Author(s): Scheich R. Ahmed
 
   ```
   pragma solidity ^0.5.0;
+  
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   ```
   
@@ -27,9 +28,11 @@ Original Author(s): Scheich R. Ahmed
   **Example 1: Using the explicit sequence to get 10 digit random number.**
    ```
   contract Randomness is usingNRE {
+  
   function randomNumber() public view returns (uint256){
        return (ra()%(10**10));
     }
+    
   }
   ```
 
