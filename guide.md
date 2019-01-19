@@ -46,7 +46,7 @@ Original Author(s): Scheich R. Ahmed
   
    **Example 2: Using multple sequence to generate 3 digit random number from 0 to 999.**
    
-   Application may include generating random number to randomly select validators in Proof of Stake network
+   This type of random number generation can be used to randomly select validators in Proof of Stake (PoS) network.
    
    ```
    pragma solidity ^0.5.0;
@@ -57,6 +57,32 @@ Original Author(s): Scheich R. Ahmed
   
         function randomNumber() public view returns (uint256){
              return (((rf()%10)*100)+((rx()%10)*10)+(rm()%10));
+        }
+    
+  }
+  ```
+  
+  **Example 3: Transaction of random number into state or local variable.**
+   
+   The below transaction will cost gas, approx. (40k - 120k) gas per sequence.
+   
+   ```
+   pragma solidity ^0.5.0;
+  
+  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  
+  contract Randomness is usingNRE {
+  
+    uint256 public randomNumber;
+    
+        /**State Variable. */
+        function stateRandomNumber() public {
+             randomNumber = (((rf()%10)*100)+((rx()%10)*10)+(rm()%10));
+        }
+        
+        /**Local Variable. */
+        function localRandomNumber() public {
+             uint256 random = (((rf()%10)*100)+((rx()%10)*10)+(rm()%10));
         }
     
   }
