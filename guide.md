@@ -14,6 +14,9 @@ Original Author(s): Scheich R. Ahmed
   pragma solidity ^0.5.0;
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   ```
+  
+- Create a Smart Contract
+  
 
 ## Off-Chain Usage
 
