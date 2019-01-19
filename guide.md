@@ -24,10 +24,12 @@ Original Author(s): Scheich R. Ahmed
   
 - Code function to use sequence and set slots, there are 24 sequences i.e **ra()**, **rb()**, **rc()** upto **rx()**.
 
-  Example 1
+  **Example 1: Using the explicit sequence to get 10 digit random number.**
    ```
   contract Randomness is usingNRE {
-  
+  function randomNumber() public view returns (uint256){
+       return (ra()%(10**10));
+    }
   }
   ```
 
