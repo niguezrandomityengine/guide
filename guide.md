@@ -24,7 +24,7 @@ Original Author(s): Scheich R. Ahmed
   
 - Code function to use sequence and set slots, there are 24 sequences i.e **ra()**, **rb()**, **rc()** upto **rx()**.
 
-Example 1
+  Example 1
    ```
   contract Randomness is usingNRE {
   
