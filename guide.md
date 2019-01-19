@@ -37,9 +37,9 @@ Original Author(s): Scheich R. Ahmed
   
   contract Randomness is usingNRE {
   
-  function randomNumber() public view returns (uint256){
-       return (ra()%(10**10));
-    }
+        function randomNumber() public view returns (uint256){
+             return (ra()%(10**10));
+        }
     
   }
   ```
