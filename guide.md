@@ -22,7 +22,7 @@ Original Author(s): Scheich R. Ahmed
   }
   ```
   
-- Code function to use sequence and set slots, there are 24 sequences i.e ra(), rb()..... upto rx()
+- Code function to use sequence and set slots, there are 24 sequences i.e **ra()**, **rb()** upto **rx()**.
    ```
   contract Randomness is usingNRE {
   
