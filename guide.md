@@ -14,7 +14,8 @@ Original Author(s): Scheich R. Ahmed
   ```
   pragma solidity ^0.5.0;
   
-  import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";  ```
+  import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";  
+  ```
   
 - Create a Smart Contract as follow:
    ```
