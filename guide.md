@@ -45,9 +45,9 @@ Original Author(s): Scheich R. Ahmed
   }
   ```
   
-   **Example 2: Using multiple sequences to generate 3 digits random number from 0 to 999.**
+   **Example 2: Using multiple sequences to generate 3 digits random number ranging 0 to 999.**
    
-   This type of random number generation can be used to randomly select validators in Proof of Stake (PoS) network.
+   This type of random number generation can be used to randomly select validators in a Proof of Stake (PoS) network.
    
    ```
   pragma solidity ^0.5.0;
@@ -63,9 +63,9 @@ Original Author(s): Scheich R. Ahmed
   }
   ```
   
-  **Example 3: Transaction of random number into state or local variable.**
+  **Example 3: Transaction of random numbers into state or local variable.**
    
-   The below transaction will cost gas, approx. (40k - 120k) gas per sequence.
+   The below transaction will consume gas, approximately (40k - 120k) gas per sequence.
    
    ```
   pragma solidity ^0.5.0;
@@ -92,7 +92,7 @@ Original Author(s): Scheich R. Ahmed
    }
   ```
   
-  **Example 4: Using the slot of numbers between the sequence and hashing it for distinctive random sequence**
+  **Example 4: Using the slot of numbers from between the sequence and hashing it for distinct random sequence**
    ```
   pragma solidity ^0.5.0;
   
@@ -106,7 +106,7 @@ Original Author(s): Scheich R. Ahmed
     
   }
   ```
-- These are merely 4 instances of generating a pseudo-random number, the user could use this numbers in infinite possibilities by using   dynamic slot selection, cross stitching sequence and using them as a salt to hash with user's address, nonce.
+- These are merely 4 instances of generating a pseudo-random number, the user could use this numbers in infinite possibilities by using   dynamic slot selections, cross stitching sequences and using them as a salt to hash with user's address or nonce.
 
 ## Off-Chain Usage
 - For off-chain application use web3.js library, Javascript and the contract (application binary interface) ABI.
