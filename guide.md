@@ -113,5 +113,6 @@ Original Author(s): Scheich R. Ahmed
 - Contract ABI | [Click Here!](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
 
 ## Conclusion
-- Webpage | [Ñíguez Randomity Engine](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
-- Whitepaper on [ResearchGate](http://google.com)
+- Website | [Ñíguez Randomity Engine](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
+- Whitepaper | [ResearchGate](http://google.com)
+- How to use guide for API | [Guide](https://github.com/niguezrandomityengine/guide/blob/master/guide.md)
