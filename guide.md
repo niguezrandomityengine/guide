@@ -2,7 +2,6 @@
 Smart Contract: Ñíguez Randomity Engine
 Core Contract Address: '0x031eaE8a8105217ab64359D4361022d0947f4572'
 Block Number: 7097983
-Contract Type: Closed Source
 Original Author(s): Scheich R. Ahmed
 ---
 
