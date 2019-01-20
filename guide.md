@@ -19,7 +19,7 @@ Original Author(s): Scheich R. Ahmed
   
 - Create a Smart Contract as follow:
    ```
-   pragma solidity ^0.5.0;
+  pragma solidity ^0.5.0;
   
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   
@@ -32,15 +32,15 @@ Original Author(s): Scheich R. Ahmed
 
   **Example 1: Using the explicit sequence to get 10 digit random number.**
    ```
-   pragma solidity ^0.5.0;
+  pragma solidity ^0.5.0;
   
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   
   contract Randomness is usingNRE {
   
-        function randomNumber() public view returns (uint256){
-             return (ra()%(10**10));
-        }
+      function randomNumber() public view returns (uint256){
+          return (ra()%(10**10));
+      }
     
   }
   ```
@@ -50,15 +50,15 @@ Original Author(s): Scheich R. Ahmed
    This type of random number generation can be used to randomly select validators in Proof of Stake (PoS) network.
    
    ```
-   pragma solidity ^0.5.0;
+  pragma solidity ^0.5.0;
   
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   
   contract Randomness is usingNRE {
   
-        function randomNumber() public view returns (uint256){
-             return (((rf()%10)*100)+((rx()%10)*10)+(rm()%10));
-        }
+      function randomNumber() public view returns (uint256){
+          return (((rf()%10)*100)+((rx()%10)*10)+(rm()%10));
+      }
     
   }
   ```
@@ -68,40 +68,41 @@ Original Author(s): Scheich R. Ahmed
    The below transaction will cost gas, approx. (40k - 120k) gas per sequence.
    
    ```
-   pragma solidity ^0.5.0;
+  pragma solidity ^0.5.0;
   
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   
   contract Randomness is usingNRE {
 
   uint256 public randomNumber;
+  
   event rNum(uint256 theNumber);
  
-     /**State Variable. */
-        function stateRandomNumber() public {
-           randomNumber = (((ru()%10)*100)+((re()%10)*10)+(rq()%10));
-       }
+          /**State Variable. */
+      function stateRandomNumber() public {
+          randomNumber = (((ru()%10)*100)+((re()%10)*10)+(rq()%10));
+      }
      
-     /**Local Variable. */
-       function localRandomNumber() public {
-           uint256 randomGame = (((rj()%10)*100)+((rg()%10)*10)+(ri()%10));
-           emit rNum(randomGame);
-       }
+          /**Local Variable. */
+      function localRandomNumber() public {
+          uint256 randomGame = (((rj()%10)*100)+((rg()%10)*10)+(ri()%10));
+          emit rNum(randomGame);
+      }
  
    }
   ```
   
   **Example 4: Using the slot of numbers between the sequence and hashing it for distinctive random sequence**
    ```
-   pragma solidity ^0.5.0;
+  pragma solidity ^0.5.0;
   
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   
   contract Randomness is usingNRE {
   
-        function randomNumber() public view returns (uint256){
-             return (uint256(keccak256((rw()/(10**20))%(10**12))));
-        }
+      function randomNumber() public view returns (uint256){
+          return (uint256(keccak256((rw()/(10**20))%(10**12))));
+      }
     
   }
   ```
