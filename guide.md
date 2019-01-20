@@ -28,7 +28,7 @@ Original Author(s): Scheich R. Ahmed
   }
   ```
   
-- Code function to use sequence and set slots, there are 24 sequences i.e **ra()**, **rb()**, **rc()** upto **rx()**.
+- Code function to use sequences and set slots, there are 24 sequences i.e **ra()**, **rb()**, **rc()** upto **rx()**.
 
   **Example 1: Using the explicit sequence to get a 10 digits random number.**
    ```
