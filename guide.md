@@ -106,7 +106,7 @@ Original Author(s): Scheich R. Ahmed
     
   }
   ```
-- These are merely 4 instances of generating a pseudo-random number, the user could use this numbers in infinite possibilities by using   them dynamic slot selection, cross stitching sequence and using as a salt to hash with user's address, nonce.
+- These are merely 4 instances of generating a pseudo-random number, the user could use this numbers in infinite possibilities by using   dynamic slot selection, cross stitching sequence and using them as a salt to hash with user's address, nonce.
 
 ## Off-Chain Usage
 - For off-chain application use web3.js library, Javascript and the contract (application binary interface) ABI.
