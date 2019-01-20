@@ -4,7 +4,7 @@ Core Contract Address: '0x031eaE8a8105217ab64359D4361022d0947f4572'
 Block Number: 7097983
 Contract Type: Closed Source
 Original Author(s): Scheich R. Ahmed
-Usage License: MIT
+User License: MIT
 ---
 
 # A Guide for using the Ñíguez Randomity Engine
