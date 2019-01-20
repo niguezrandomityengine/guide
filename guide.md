@@ -109,4 +109,5 @@ Original Author(s): Scheich R. Ahmed
 - These are merely 4 instances of genarating pseudo-random number, the user could use this numbers in infinite possiblities by using       dynamic slot selection, cross stitching sequence and using as a salt to hash with user's address, nounce.
 
 ## Off-Chain Usage
-
+- For off-chain application use web3.js library, Javascript and the contract (application binary interface) ABI.
+- Contract ABI is [here!](http://google.com)
