@@ -110,4 +110,4 @@ Original Author(s): Scheich R. Ahmed
 
 ## Off-Chain Usage
 - For off-chain application use web3.js library, Javascript and the contract (application binary interface) ABI.
-- Contract ABI is [here!](http://google.com)
+- Contract ABI is [Click Here!](http://google.com)
