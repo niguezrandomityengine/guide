@@ -72,21 +72,23 @@ Original Author(s): Scheich R. Ahmed
   
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   
-  contract Randomness is usingNRE {
-  
-    uint256 public randomNumber;
-    
-        /**State Variable. */
-        function stateRandomNumber() public {
-             randomNumber = (((ru()%10)*100)+((re()%10)*10)+(rq()%10));
-        }
-        
-        /**Local Variable. */
-        function localRandomNumber() public {
-             uint256 randomGame = (((rj()%10)*100)+((rg()%10)*10)+(ri()%10));
-        }
-    
-  }
+ contract Randomness is usingNRE {
+
+ uint256 public randomNumber;
+ event rNum(uint256 theNumber);
+ 
+     /**State Variable. */
+     function stateRandomNumber() public {
+          randomNumber = (((ru()%10)*100)+((re()%10)*10)+(rq()%10));
+     }
+     
+     /**Local Variable. */
+     function localRandomNumber() public {
+          uint256 randomGame = (((rj()%10)*100)+((rg()%10)*10)+(ri()%10));
+          emit rNum(randomGame);
+     }
+ 
+}
   ```
   
   **Example 4: Using the slot of numbers between the sequence and hashing it for distinctive random sequence**
