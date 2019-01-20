@@ -45,7 +45,7 @@ Original Author(s): Scheich R. Ahmed
   }
   ```
   
-   **Example 2: Using multiple sequences to generate 3 digits random number ranging 0 to 999.**
+   **Example 2: Using multiple sequences to generate 3 digits random number ranging from 0 to 999.**
    
    This type of random number generation can be used to randomly select validators in a Proof of Stake (PoS) network.
    
