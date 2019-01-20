@@ -110,9 +110,9 @@ Original Author(s): Scheich R. Ahmed
 
 ## Off-Chain Usage
 - For off-chain application use web3.js library, Javascript and the contract (application binary interface) ABI.
-- Contract ABI | [Click Here!](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
+- Contract | [ABI](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
 
 ## Conclusion
 - Website | [Ñíguez Randomity Engine](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
 - Whitepaper | [ResearchGate](http://google.com)
-- Ethereum [API](https://github.com/niguezrandomityengine/ethereumAPI)
+- Ethereum | [API](https://github.com/niguezrandomityengine/ethereumAPI)
