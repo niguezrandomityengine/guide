@@ -72,10 +72,10 @@ Original Author(s): Scheich R. Ahmed
   
   import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
   
- contract Randomness is usingNRE {
+  contract Randomness is usingNRE {
 
- uint256 public randomNumber;
- event rNum(uint256 theNumber);
+  uint256 public randomNumber;
+  event rNum(uint256 theNumber);
  
      /**State Variable. */
      function stateRandomNumber() public {
@@ -106,6 +106,6 @@ Original Author(s): Scheich R. Ahmed
   }
   ```
 - These are merely 4 instances of genarating pseudo-random number, the user could use this numbers in infinite possiblities by using dynamic slot selection, cross stitching sequence and using as a salt to hash with user's address, nounce.
-       
+
 ## Off-Chain Usage
 
