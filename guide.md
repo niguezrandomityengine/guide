@@ -45,7 +45,7 @@ Original Author(s): Scheich R. Ahmed
   }
   ```
   
-   **Example 2: Using multple sequence to generate 3 digit random number from 0 to 999.**
+   **Example 2: Using multiple sequence to generate 3 digit random number from 0 to 999.**
    
    This type of random number generation can be used to randomly select validators in Proof of Stake (PoS) network.
    
@@ -106,7 +106,7 @@ Original Author(s): Scheich R. Ahmed
     
   }
   ```
-- These are merely 4 instances of genarating pseudo-random number, the user could use this numbers in infinite possiblities by using       dynamic slot selection, cross stitching sequence and using as a salt to hash with user's address, nounce.
+- These are merely 4 instances of generating pseudo-random number, the user could use this numbers in infinite possibilities by using       dynamic slot selection, cross stitching sequence and using as a salt to hash with user's address, nonce.
 
 ## Off-Chain Usage
 - For off-chain application use web3.js library, Javascript and the contract (application binary interface) ABI.
