@@ -14,14 +14,13 @@ Original Author(s): Scheich R. Ahmed
   ```
   pragma solidity ^0.5.0;
   
-  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
-  ```
+  import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";  ```
   
 - Create a Smart Contract as follow:
    ```
   pragma solidity ^0.5.0;
   
-  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";
   
   contract Randomness is usingNRE {
   
@@ -34,7 +33,7 @@ Original Author(s): Scheich R. Ahmed
    ```
   pragma solidity ^0.5.0;
   
-  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  import import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";
   
   contract Randomness is usingNRE {
   
@@ -52,7 +51,7 @@ Original Author(s): Scheich R. Ahmed
    ```
   pragma solidity ^0.5.0;
   
-  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";
   
   contract Randomness is usingNRE {
   
@@ -70,7 +69,7 @@ Original Author(s): Scheich R. Ahmed
    ```
   pragma solidity ^0.5.0;
   
-  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  import import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";
   
   contract Randomness is usingNRE {
 
@@ -96,7 +95,7 @@ Original Author(s): Scheich R. Ahmed
    ```
   pragma solidity ^0.5.0;
   
-  import "https://github.com/niguezrandomityengine/ethereumAPI/blob/master/nreAPI.sol";
+  import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";
   
   contract Randomness is usingNRE {
   
@@ -110,8 +109,8 @@ Original Author(s): Scheich R. Ahmed
 
 ## Off-Chain Usage
 - For off-chain application use web3.js library, Javascript and the contract (application binary interface) ABI.
-- Contract ABI | [Click Here!](http://google.com)
+- Contract ABI | [Click Here!](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
 
 ## Conclusion
-- Webpage | [Ñíguez Randomity Engine](http://google.com)
+- Webpage | [Ñíguez Randomity Engine](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
 - Whitepaper on [ResearchGate](http://google.com)
