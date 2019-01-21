@@ -113,6 +113,6 @@ Original Author(s): Scheich R. Ahmed
 - Contract | [ABI](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
 
 ## Conclusion
-- Website | [Ñíguez Randomity Engine](https://github.com/niguezrandomityengine/ethereumAPI/blob/master/ABI.json)
-- Whitepaper | [ResearchGate](http://google.com)
-- Ethereum | [API](https://github.com/niguezrandomityengine/ethereumAPI)
+- Website | [Ñíguez Randomity Engine](https://niguezrandomityengine.github.io/)
+- Whitepaper | [ResearchGate](https://www.researchgate.net/publication/330513989_Niguez_Randomity_Engine_Secure_generation_and_usage_of_pseudo-random_numbers_on_the_Ethereum_Blockchain) | [GitHub](https://github.com/niguezrandomityengine/niguezrandomityengine.github.io/blob/master/Niguez%20Randomity%20Engine%20Whitepaper.pdf)
+- How to use guide for API | [Guide](https://github.com/niguezrandomityengine/guide/blob/master/guide.md)
