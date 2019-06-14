@@ -13,8 +13,7 @@
   
   import "https://github.com/niguezrandomityengine/ethereumAPI/nreAPI.sol";  
   ```
-  
-  - Import ThunderCore API into your project | Use the following in Remix IDE (Other platforms may not support GitHub)
+- Import ThunderCore API into your project | Use the following in Remix IDE (Other platforms may not support GitHub)
 
   ```
   pragma solidity ^0.5.0;
