@@ -3,14 +3,6 @@
 | Ethereum       | 0x031eaE8a8105217ab64359D4361022d0947f4572 | 20 January 2019 | 7097983      | Scheich R. Ahmed   |
 | ThunderCore    | 0xA9EfBB7c3FE6410eB3edae1B97205209Cd41bA09 | 13 June 2019    | 9195098      | Scheich R. Ahmed   |
 
----
-ThunderCore Contract: Ñíguez Randomity Engine
-Contract Address: '0xA9EfBB7c3FE6410eB3edae1B97205209Cd41bA09'
-Block Number: 7097983
-Date Deployed: 20 January 2019
-Original Author(s): Scheich R. Ahmed
----
-
 # A Guide for using the Ñíguez Randomity Engine
 
 ## On-Chain Usage
