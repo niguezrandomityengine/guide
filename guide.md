@@ -1,10 +1,8 @@
----
-Ethereum Contract: Ñíguez Randomity Engine
-Contract Address: '0x031eaE8a8105217ab64359D4361022d0947f4572\0x031eaE8a8105217ab64359D4361022d0947f4572'
-Block Number: 7097983
-Date Deployed: 20 January 2019
-Original Author(s): Scheich R. Ahmed
----
+| Smart Contract| Are           | Cool  |
+| -------------|:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 ---
 ThunderCore Contract: Ñíguez Randomity Engine
 Contract Address: '0xA9EfBB7c3FE6410eB3edae1B97205209Cd41bA09'
