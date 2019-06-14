@@ -1,7 +1,7 @@
-| Smart Contract| Contract Address          | Original Author(s)  |
-| -------------|:-------------:| -----:|
-| Ethereum      | 0x031eaE8a8105217ab64359D4361022d0947f4572 | Scheich R. Ahmed |
-| ThunderCore      | 0xA9EfBB7c3FE6410eB3edae1B97205209Cd41bA09 | Scheich R. Ahmed |
+| Smart Contract | Contract Address                           | Date Deployed   | Block Number | Original Author(s) |
+| ---------------|:------------------------------------------:|:---------------:|:------------:|-------------------:|
+| Ethereum       | 0x031eaE8a8105217ab64359D4361022d0947f4572 | 20 January 2019 | 7097983      | Scheich R. Ahmed   |
+| ThunderCore    | 0xA9EfBB7c3FE6410eB3edae1B97205209Cd41bA09 | 13 June 2019    | 9195098      | Scheich R. Ahmed   |
 
 ---
 ThunderCore Contract: Ñíguez Randomity Engine
